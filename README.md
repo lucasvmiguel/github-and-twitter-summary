@@ -36,12 +36,14 @@ consumer_secret="CONSUMER-SECRET"
 
 ## Usage
 
+command:
 ```
 $ go run github-and-twitter-summary.go -c "<PATH-TO-CONFIG-FILE>" "<TEXT-TO-SEARCH>"
 ```
 
 ## Example
 
+config file:
 ```
 [github]
 token="abcdefghi"
@@ -54,6 +56,7 @@ consumer_key="abcdefghi"
 consumer_secret="abcdefghi"
 ```
 
+command:
 ```
 go run github-and-twitter-summary.go -c "/home/myname/config.toml" "football"
 ```
