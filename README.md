@@ -38,7 +38,7 @@ consumer_secret="CONSUMER-SECRET"
 
 command:
 ```
-$ github-and-twitter-summary.go -c "<PATH-TO-CONFIG-FILE>" "<TEXT-TO-SEARCH>"
+$ github-and-twitter-summary -c "<PATH-TO-CONFIG-FILE>" "<TEXT-TO-SEARCH>"
 ```
 
 ## Example
@@ -58,7 +58,7 @@ consumer_secret="abcdefghi"
 
 command:
 ```
-$ github-and-twitter-summary.go -c "/home/myname/config.toml" "football"
+$ github-and-twitter-summary -c "/home/myname/config.toml" "football"
 ```
 
 ## Documentation
